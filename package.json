@@ -1,0 +1,27 @@
+{
+  "name": "peepbox",
+  "version": "1.0.0",
+  "description": "RPG Character Container",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test",
+    "start": "supervisor node index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmx/peepbox.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmx/peepbox/issues"
+  },
+  "homepage": "https://github.com/jmx/peepbox#readme",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "sqlite3": "^3.0.8"
+  }
+}
